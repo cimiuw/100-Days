@@ -1,0 +1,16 @@
+package day.pkg1.wana;
+public class Day1Wana {
+    public static void main(String[] args) {
+        String nama = "Nirwana";
+        String asal = "Pasangkayu";
+        String alumni = "SMKN 1 Pasangkayu";
+        byte umur = 18;
+        int tinggi = 153;
+        System.out.println("Nama : " + nama);
+        System.out.println("Asal : " + asal);
+        System.out.println("Alumni : " + alumni);
+        System.out.println("Umur : " + umur);
+        System.out.println("Tinggi : " + tinggi);    
+    }
+    
+}
