@@ -1,0 +1,11 @@
+package day.pkg3.wana;
+public class Day3Wana {
+    public static void main(String[] args) {
+        int angka1 = 4;
+        int angka2 = 2;
+        System.out.println(angka1>angka2);
+        System.out.println(angka1*angka2);
+                
+    }
+    
+}
