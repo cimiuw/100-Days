@@ -1,0 +1,10 @@
+package day.pkg4.wana;
+public class Day4Wana {
+    public static void main(String[] args) {
+        int angka = 4;
+            angka* = 5;
+        System.out.println(angka);
+                
+    }
+    
+}
