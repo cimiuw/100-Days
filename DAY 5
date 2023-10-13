@@ -1,0 +1,13 @@
+package day.pkg5.wana;
+public class Day5Wana {
+    public static void main(String[] args) {
+        int angka1 = 10;
+        int angka2 = 3;
+        double angka3 = 2.4;
+        System.out.println(angka1>angka2);
+        System.out.println(angka1*angka3);
+        System.out.println(angka2==angka2);
+
+    }
+    
+}
