@@ -1,0 +1,11 @@
+package day.pkg6.wana;
+public class Day6Wana {
+    public static void main(String[] args) {
+        String nama = "Nirwana";
+        double berat = 43.2;
+        System.out.println("Nama : " + nama);
+        System.out.println("BB : " + berat);
+        
+    }
+    
+}
