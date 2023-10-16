@@ -1,0 +1,10 @@
+package day.pkg8.wana;
+public class Day8Wana {
+    public static void main(String[] args) {
+        int nilai1 = 3;
+        int nilai2 = 6;
+        System.out.println(nilai1/nilai2);
+        
+    }
+    
+} 
