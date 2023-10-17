@@ -1,0 +1,11 @@
+package day.pkg9.wana;
+public class Day9Wana {
+    public static void main(String[] args) {
+        int nilai1 = 3;
+        int nilai2 = 6;
+        int nilai3 = 4;
+        System.out.println(nilai1+nilai2*nilai3);
+        
+    }
+    
+} 
