@@ -1,0 +1,9 @@
+package day.pkg10.wana;
+public class Day10Wana {
+    public static void main(String[] args) {
+        int nilai1 = 4;
+        int nilai2 = 5;
+        System.out.println(angka1==angka2);
+        System.out.println(angka1!=angka2);    
+    }
+  }   
