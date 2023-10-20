@@ -1,0 +1,10 @@
+package day.pkg12.wana;
+public class Day12Wana {
+    public static void main(String[] args) {
+        int nilai = 3;
+        int angka = 4;
+        System.out.println(angka==angka || angka!=nilai);
+        System.out.println(angka==angka && angka!=nilai);
+    }
+    
+} 
