@@ -1,0 +1,16 @@
+package day.pkg13.wana;
+public class Day13Wana {
+    public static void main(String[] args) {
+        int angka1 = 6;
+        int angka2 = 10;
+        int angka3 = 4;
+        double angka4 = 6.3;
+
+        System.out.println(angka2==angka2);
+        System.out.println(angka2*angka3);
+        System.out.println(angka2!=angka3);
+        System.out.println(angka1+angka4);
+
+    }
+    
+}
