@@ -1,0 +1,21 @@
+package day.pkg14.wana;
+import java.util.Scanner;
+public class Day14Wana {
+
+    public static void main(String[] args) {
+ Scanner wini = new Scanner (System.in);
+        System.out.println("angka pertama :");
+ int angka1 = wini.nextInt();
+ System.out.println("angka kedua :");
+ int angka2 = wini.nextInt();
+ int a = angka1+angka2;
+ int b = angka1-angka2;
+ int c = angka1/angka2;
+ int d = angka1*angka2;
+        System.out.println("Hasil penjumlahan :"+a);
+        System.out.println("Hasil pengurangan :"+b);
+        System.out.println("Hasil pembagiaan :"+c);
+        System.out.println("Hasil perkalian :"+d);
+
+     }
+}
