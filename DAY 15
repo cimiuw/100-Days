@@ -1,0 +1,21 @@
+package day.pkg15.wana;
+
+import java.util.Scanner;
+
+public class Day15Wana {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("Masukkan Bilangan : ");
+        int a = input.nextInt();
+        if (a % 2 == 0 && a !=0) {
+            System.out.println(a + " adalah Bilangan Genap");
+        }
+        else if (a % 2 != 0) {
+            System.out.println(a + " adalah Bilangan Ganjil");
+        }
+        else {
+            System.out.println("Bukan Angka Manapun");
+        }
+    }
+    
+}
