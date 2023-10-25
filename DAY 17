@@ -1,0 +1,17 @@
+package day.pkg17.wana;
+import java.util.Scanner;
+public class Day17Wana {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("Tinggi : ");
+        int tinggi = input.nextInt();
+        if (tinggi >= 170) {
+            System.out.println("Memenuhi");
+        } else if (tinggi < 170) {
+            System.out.println("Tidak Memenuhi");
+        }
+
+    }
+    
+}
