@@ -1,0 +1,22 @@
+package day.pkg19.wana;
+
+public class Day19Wana {
+
+    public static void main(String[] args) {
+        int a = 6;
+        int b = 3;
+        int hasil;
+        hasil = a + b;
+        System.out.println("Hasil penjumlahan : " + hasil);
+        hasil = a - b;
+        System.out.println("Hasil pengurangan : " + hasil);
+        hasil = a * b;
+        System.out.println("Hasil perkalian : " + hasil);
+        hasil = a / b;
+        System.out.println("Hasil pembagian : " + hasil);
+        hasil = a % b;
+        System.out.println("Hasil modulus : " + hasil);
+        
+    }
+    
+}
