@@ -1,0 +1,26 @@
+package day.pkg20.wana;
+import java.util.Scanner;
+public class Day20Wana {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("Masukkan Gaji Bulanan : ");
+        double a = input.nextDouble();
+        double b = 0.05;
+        double f = 0.1;
+        
+        if (a >= 5000000) {
+            double c = a - (a * f);
+            System.out.println("Paajak 10%");
+            System.out.println("Gaji : " + c);
+        } else if (a >= 3000000 && a <= 5000000){
+            double c = a - (a * b);
+            System.out.println("Pajak 5%");
+            System.out.println("Gaji : " + c);
+        } else {
+            System.out.println("Tidak Ada Pajak");
+        }
+     
+    }
+    
+}
