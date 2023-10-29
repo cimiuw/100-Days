@@ -1,0 +1,17 @@
+package day.pkg21.wana;
+
+import java.util.Scanner;
+
+public class Day21Wana {
+
+    public static void main(String[] args) {
+       Scanner input = new Scanner (System.in);
+        System.out.print("Masukkan batas angka : ");
+        int batas = input.nextInt();
+        for (int i = 0; i < batas; i++) {
+        System.out.print("Masukkan angka : ");
+        int angka = input.nextInt();
+    }
+    }
+    
+}
