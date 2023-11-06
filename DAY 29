@@ -1,0 +1,18 @@
+package day.pkg29.wana;
+
+import java.util.Scanner;
+
+public class Day29Wana {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Angka Pertama: ");
+        int angka1 = input.nextInt();
+        System.out.print("Angka Kedua: ");
+        int angka2 = input.nextInt();
+
+        int penjumlahan = angka1 + angka2;
+        System.out.println("Hasil: " + penjumlahan);
+    }
+
+}
