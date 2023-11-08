@@ -1,0 +1,14 @@
+package day.pkg31.wana;
+
+public class Day31Wana {
+
+    public static void main(String[] args) {
+        for (int w = 0; w < 10; w++) {
+            if (w == 6) {
+                break;
+            }
+            System.out.println(w);
+        }
+    }
+
+}
