@@ -1,0 +1,14 @@
+package day.pkg32.wana;
+
+public class Day32Wana {
+
+    public static void main(String[] args) {
+        for (int n = 0; n < 20; n++) {
+            if (n == 12) {
+                break;
+            }
+            System.out.println(n);
+        }
+    }
+
+}
