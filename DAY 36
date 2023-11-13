@@ -1,0 +1,14 @@
+package day.pkg36.wana;
+public class Day36Wana {
+    public static void main(String[] args) {
+        int angka1 = 20;
+        int angka2 = 10;
+        int angka3 = 2;
+        double angka4 = 4.5; 
+
+        System.out.println(angka1+angka2*angka3/angka4);
+        System.out.println(angka1*angka2*(angka3+angka4)); 
+
+    }
+    
+}
